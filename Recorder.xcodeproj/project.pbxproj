@@ -18,6 +18,10 @@
 		3A97BC68171C7BD100F1BBDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A97BC67171C7BD100F1BBDC /* Default-568h@2x.png */; };
 		3A97BC6B171C7BD100F1BBDC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A97BC69171C7BD100F1BBDC /* MainStoryboard.storyboard */; };
 		3A97BC6E171C7BD100F1BBDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A97BC6D171C7BD100F1BBDC /* ViewController.m */; };
+		3A97BC75171C7BDF00F1BBDC /* audio-button-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A97BC74171C7BDF00F1BBDC /* audio-button-small.png */; };
+		3A97BC77171C7BE400F1BBDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A97BC76171C7BE400F1BBDC /* Default.png */; };
+		3A97BC79171C7BED00F1BBDC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A97BC78171C7BED00F1BBDC /* AVFoundation.framework */; };
+		3A97BC7B171C813F00F1BBDC /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A97BC7A171C813F00F1BBDC /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		3A97BC6A171C7BD100F1BBDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3A97BC6C171C7BD100F1BBDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3A97BC6D171C7BD100F1BBDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A97BC74171C7BDF00F1BBDC /* audio-button-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio-button-small.png"; sourceTree = "<group>"; };
+		3A97BC76171C7BE400F1BBDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A97BC78171C7BED00F1BBDC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3A97BC7A171C813F00F1BBDC /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../Images/images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A97BC79171C7BED00F1BBDC /* AVFoundation.framework in Frameworks */,
 				3A97BC52171C7BD100F1BBDC /* UIKit.framework in Frameworks */,
 				3A97BC54171C7BD100F1BBDC /* Foundation.framework in Frameworks */,
 				3A97BC56171C7BD100F1BBDC /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +65,10 @@
 		3A97BC45171C7BD100F1BBDC = {
 			isa = PBXGroup;
 			children = (
+				3A97BC78171C7BED00F1BBDC /* AVFoundation.framework */,
+				3A97BC76171C7BE400F1BBDC /* Default.png */,
+				3A97BC7A171C813F00F1BBDC /* images.jpg */,
+				3A97BC74171C7BDF00F1BBDC /* audio-button-small.png */,
 				3A97BC57171C7BD100F1BBDC /* Recorder */,
 				3A97BC50171C7BD100F1BBDC /* Frameworks */,
 				3A97BC4F171C7BD100F1BBDC /* Products */,
@@ -163,6 +176,9 @@
 				3A97BC66171C7BD100F1BBDC /* Default@2x.png in Resources */,
 				3A97BC68171C7BD100F1BBDC /* Default-568h@2x.png in Resources */,
 				3A97BC6B171C7BD100F1BBDC /* MainStoryboard.storyboard in Resources */,
+				3A97BC75171C7BDF00F1BBDC /* audio-button-small.png in Resources */,
+				3A97BC77171C7BE400F1BBDC /* Default.png in Resources */,
+				3A97BC7B171C813F00F1BBDC /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
